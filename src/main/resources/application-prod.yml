@@ -4,7 +4,7 @@ spring:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/pdp_meal
     username: postgres
-    password: 1807
+    password: neo
   jpa:
     show-sql: true
     hibernate:

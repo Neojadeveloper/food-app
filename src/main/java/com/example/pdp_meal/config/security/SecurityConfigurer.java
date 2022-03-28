@@ -2,19 +2,13 @@ package com.example.pdp_meal.config.security;
 
 import com.example.pdp_meal.config.security.filters.CustomAuthenticationFilter;
 import com.example.pdp_meal.config.security.filters.CustomAuthorizationFilter;
-import com.example.pdp_meal.dto.auth.AuthUserCreateDto;
-import com.example.pdp_meal.entity.AuthUser;
-import com.example.pdp_meal.enums.State;
-import com.example.pdp_meal.enums.Status;
 import com.example.pdp_meal.mapper.auth.AuthUserMapper;
 import com.example.pdp_meal.repository.AuthUserRepository;
 import com.example.pdp_meal.service.auth.AuthUserService;
-import jdk.dynalink.linker.LinkerServices;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Lazy;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
@@ -25,10 +19,6 @@ import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
-
-import javax.annotation.PostConstruct;
-import java.util.Collections;
-import java.util.List;
 
 @Configuration
 @EnableWebSecurity

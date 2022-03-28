@@ -1,7 +1,8 @@
 package com.example.pdp_meal.dto;
 
 
-import lombok.*;
+import lombok.Getter;
+import lombok.Setter;
 
 @Getter
 @Setter

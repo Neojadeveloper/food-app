@@ -1,6 +1,5 @@
 package com.example.pdp_meal.job;
 
-import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
 /**

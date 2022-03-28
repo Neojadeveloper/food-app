@@ -12,11 +12,8 @@ import com.example.pdp_meal.service.file.FileStorageService;
 import com.example.pdp_meal.validator.meal.MealValidator;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Service;
-import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;
-
-import static com.example.pdp_meal.FileStorageUtils.UPLOAD_DIRECTORY;
 
 /**
  * @author Bekpulatov Shoxruh, Wed 11:15 PM. 3/2/2022

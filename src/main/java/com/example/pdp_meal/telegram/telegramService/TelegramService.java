@@ -8,8 +8,6 @@ import com.example.pdp_meal.dto.meal.MealDto;
 import com.example.pdp_meal.dto.order.MealOrderCountDto;
 import com.example.pdp_meal.dto.order.OrderCreateDto;
 import com.example.pdp_meal.entity.AuthUser;
-import com.example.pdp_meal.entity.FeedBack;
-import com.example.pdp_meal.enums.FeedBackType;
 import com.example.pdp_meal.enums.Role;
 import com.example.pdp_meal.repository.AuthUserRepository;
 import com.example.pdp_meal.service.dailyMenu.DailyMenuService;
@@ -26,10 +24,8 @@ import org.springframework.stereotype.Service;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.ReplyKeyboard;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
-import java.util.stream.Collectors;
 
 
 @Service

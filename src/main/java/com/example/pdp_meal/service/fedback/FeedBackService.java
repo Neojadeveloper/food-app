@@ -4,7 +4,6 @@ import com.example.pdp_meal.dto.feedback.FeedBackCreateDto;
 import com.example.pdp_meal.dto.feedback.FeedBackDto;
 import com.example.pdp_meal.dto.feedback.FeedBackUpdateDto;
 import com.example.pdp_meal.entity.FeedBack;
-import com.example.pdp_meal.enums.FeedBackType;
 import com.example.pdp_meal.mapper.FeedBackMapper;
 import com.example.pdp_meal.repository.FeedBackRepository;
 import com.example.pdp_meal.service.AbstractService;

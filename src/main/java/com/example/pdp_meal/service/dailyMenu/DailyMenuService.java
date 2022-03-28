@@ -9,7 +9,6 @@ import com.example.pdp_meal.repository.DailyMenuRepository;
 import com.example.pdp_meal.service.AbstractService;
 import com.example.pdp_meal.service.GenericCrudService;
 import com.example.pdp_meal.validator.dailyMenu.DailyMenuValidator;
-import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

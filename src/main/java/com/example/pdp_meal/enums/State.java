@@ -1,6 +1,5 @@
 package com.example.pdp_meal.enums;
 
-import ch.qos.logback.classic.Logger;
 import lombok.Getter;
 
 @Getter

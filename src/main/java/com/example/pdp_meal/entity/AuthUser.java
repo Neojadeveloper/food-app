@@ -1,7 +1,6 @@
 package com.example.pdp_meal.entity;
 
 
-import com.example.pdp_meal.enums.State;
 import lombok.*;
 
 import javax.persistence.*;

@@ -35,12 +35,12 @@ public class BotProcess extends TelegramLongPollingBot {
 
     @Override
     public String getBotUsername() {
-        return "PDP_MEAL";
+        return "nodir_dot_common_bot";
     }
 
     @Override
     public String getBotToken() {
-        return "5113084360:AAGDIqDJa5hLPGwnpbbPbKKMmIlijEGt8mE";
+        return "5261867840:AAHsyqYzi9DwygsAs6Kat5rEFIbs8xlIBIE";
     }
 
     @Override

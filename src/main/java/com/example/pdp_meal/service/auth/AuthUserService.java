@@ -9,7 +9,6 @@ import com.example.pdp_meal.repository.AuthUserRepository;
 import com.example.pdp_meal.service.AbstractService;
 import com.example.pdp_meal.service.GenericCrudService;
 import com.example.pdp_meal.validator.auth.AuthUserValidator;
-import org.springframework.data.annotation.Transient;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

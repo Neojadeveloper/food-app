@@ -1,7 +1,10 @@
 package com.example.pdp_meal.dto.feedback;
 
 import com.example.pdp_meal.dto.GenericDto;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 /**
  * @author Panjiyev Javohir, ср 18:28. 02.03.2022

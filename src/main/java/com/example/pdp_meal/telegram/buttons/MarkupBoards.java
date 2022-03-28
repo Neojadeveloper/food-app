@@ -3,7 +3,6 @@ package com.example.pdp_meal.telegram.buttons;
 import com.example.pdp_meal.enums.Role;
 import com.example.pdp_meal.telegram.emojis.Emojis;
 import org.springframework.stereotype.Component;
-import org.telegram.telegrambots.meta.api.objects.replykeyboard.ReplyKeyboard;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.ReplyKeyboardMarkup;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.KeyboardButton;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.KeyboardRow;

@@ -5,7 +5,6 @@ import com.example.pdp_meal.dto.meal.MealDto;
 import com.example.pdp_meal.dto.meal.MealUpdateDto;
 import com.example.pdp_meal.entity.Meal;
 import org.mapstruct.Mapper;
-import org.mapstruct.Mapping;
 import org.springframework.stereotype.Component;
 
 /**

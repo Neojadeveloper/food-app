@@ -1,12 +1,9 @@
 package com.example.pdp_meal.repository;
 
-import com.example.pdp_meal.dto.order.MealOrderCountDto;
 import com.example.pdp_meal.entity.MealOrder;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
-import java.time.Instant;
-import java.time.LocalDate;
 import java.util.List;
 
 public interface OrderRepository extends JpaRepository<MealOrder,Integer> {

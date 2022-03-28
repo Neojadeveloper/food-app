@@ -1,7 +1,6 @@
 package com.example.pdp_meal.dto.auth;
 
 import com.example.pdp_meal.dto.BaseDto;
-import com.example.pdp_meal.enums.Status;
 import lombok.*;
 
 
